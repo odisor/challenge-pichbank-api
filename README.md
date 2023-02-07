@@ -71,7 +71,6 @@ any means) and it has to be unique per transaction.
 * The infrastructure code must be versionated.
 * The pipeline should be configured as a code and needs to be stored in a repository.
 
-   
 ## Minimum requirements for the pipeline:
 * Use of Dependency Management
 * It should have two stages at minimum: “build” and “test”, and can have the stages that you want.
@@ -81,7 +80,6 @@ testing. Additionally you could execute the pipeline on demand and you can deplo
 the microservice (In the case that more than one version exists)
 * The pipeline should be configured as a code and needs to be stored in a repository.
 
-   
 ## The project must include:
 * Automatic testing of any type.
 * Static code revision.

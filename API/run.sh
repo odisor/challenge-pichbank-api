@@ -8,3 +8,8 @@ curl -X 'POST'   'http://localhost/DevOps/'   -H 'accept: application/json'   -H
   "timeToLifeSec": 45
 }'
 
+
+
+docker login acrpichbank2.azurecr.io   ( acrpichbank2 /  dyi+y8lWx+4wTlfIjbptjPHMkScnZdNYQgIxlD8raD+ACRAqOfMk  )
+docker build -t acrpichbank2.azurecr.io/bank_api:0.0.2 .
+docker push acrpichbank2.azurecr.io/bank_api:0.0.2
